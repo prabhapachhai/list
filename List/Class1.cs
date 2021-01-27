@@ -77,7 +77,7 @@ namespace List
                 //salary.Add(driver.FindElement(By.XPath("//tbody/descendant::tr[" + i + "]/descendant::td[" + 6 + "]")).Text);
             }
             Assert.AreEqual(expectedName, actualName);
-            List<string> possion = new List<string>() { "mina", "prabha" };
+            List<string> possion = new List<string>() { "mina", "prabha", "durga" };
         }
     }
         
