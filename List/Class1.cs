@@ -78,6 +78,7 @@ namespace List
             }
             Assert.AreEqual(expectedName, actualName);
             List<string> possion = new List<string>() { "mina", "prabha", "durga" };
+            List<string> possion = new List<string>() { "mina", "prabha", "durga", "ashim };
         }
     }
         
